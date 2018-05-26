@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.cenet.HotelpruebaApp"
+        version     = "1.0.0"
+        versionCode = "1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="cli-6.5.0" />
+
+        <name>app hotel</name>
+
+        <description>
+            Aplicación para hoteles.
+        </description>
+
+        <author href="#" email="roberto.luis1727@gmail.com">
+            ravlri
+        </author>
+        <icon src="img/icono.png" />
+            <splash src="img/monito.png" />
+
+    </widget>
