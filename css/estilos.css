@@ -1,4 +1,4 @@
-#inicio .ui-content,#registro .ui-content,#main .ui-content,#reservacion .ui-content{
+#inicio .ui-content,#registro .ui-content,#principal .ui-content,#reservacion .ui-content{
 	text-align: center;
 }
 
@@ -10,7 +10,7 @@
 	margin: 20px 0;
 }
 
-#main img{
+#principal img{
 	margin-top: 70px;
 }
 
