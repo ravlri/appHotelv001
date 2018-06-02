@@ -15,9 +15,9 @@
 			<img src="img/logo-hotel.png">
 			<input type="text" name="email" id="email" placeholder="correo">
 			<input type="password" name="password" id="password" placeholder="contraseña">
-			<button class="ui-btn ui-btn-active">
+			<a href="#main" class="ui-btn ui-btn-active">
 				iniciar sesion
-			</button>
+			</a>
 			<a href="#registro">¿Aun no tienes cuenta?</a>
 		</div>
 		<div data-role="footer" data-position="fixed">
@@ -32,6 +32,7 @@
 			<h1>Registro</h1>
 			<input type="text" name="name" id="name" placeholder="nombre">
 			<input type="tel" name="phone" id="phone" placeholder="telefono">
+			<input type="tex" name="mail" id="mail" placeholder="correo">
 			<input type="password" name="password" id="password" placeholder="contraseña">
 			<input type="password" name="password2" id="password2" placeholder="confirmar contraseña">
 			<button class="ui-btn ui-btn-active">
@@ -42,6 +43,73 @@
 		<div data-role="footer" data-position="fixed">
 		</div>
 	</div>
+
+	<div id="main" data-role="page">
+		<div data-role="header">
+			<div data-role="control-group" data-type="horizontal">
+				<a href="#menu" data-icon="bars" data-role="button" class="menu-btn"></a>
+				
+			</div>
+			
+		</div>
+		<div data-role="main" class="ui-content">
+	    <img src="img/logo-hotel.png">
+	    <p>Bienvenido luis</p>
+	    <a href ="#reservacion" class="ui-btn ui-btn-active">
+	    	¡reserva ya!
+	    	
+	    </a>
+			
+		</div>
+		<div data-role="panel" id="menu" data-display="push">
+			<h3>Menu</h3>
+			<ul data-role="listview">
+				<li>inicio</li>
+				<li>reservar</li>
+				<li>historial</li>
+				<li>galeria</li>
+				<li>privacidad</li>
+			</ul>
+			
+		</div>
+	</div>
+
+	<div id="reservacion" data-role="page">
+		<div data-role="header"></div>
+	<div data-role="main" class="ui-content"></div>
+		<h4>Reservacion</h4>
+			<input type="text" name="name" id="name" placeholder="nombre">
+			<form>
+<div class="ui-field-contain">
+    <parrafo for="select-native-18">tipos de recamaras:</parrafo>
+    <select name="select-native-18" id="select-native-18">
+        <option value=>tipos de recamaras</option>	
+        <option value="1">matrimonial</option>
+        <option value="2">sensilla</option>
+        <option value="3">2 recamaras</option>
+        <option value="4">recamara vip</option>
+    </select>
+</div>
+
+</form>
+<form>
+     <parrafo for="date-1">fecha de ingreso</parrafo>
+     <input type="date" data-clear-btn="false" name="date-1" id="date-1" value="">
+     <parrafo for="date-2">fecha de salida</parrafo>
+     <input type="date" data-clear-btn="true" name="date-2" id="date-2" value="">
+</form>
+
+<form>
+    <label>
+        <input type="checkbox" name="checkbox-0 ">Acepto los teminos
+    </label>
+</form>
+
+<form>
+    <input type="button" value="reservar">
+</form>
+</div>
+
    
 
     <script type="text/javascript" src="phonegap.js"></script>
